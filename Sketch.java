@@ -1,7 +1,10 @@
 import processing.core.PApplet;
 
 public class Sketch extends PApplet {
-	
+	/**
+   * This program will print what needs to be printed
+   * @author E.Fung
+   **/
 	
   /**
    * Called once at the beginning of execution, put your size all in this method
@@ -72,12 +75,12 @@ public class Sketch extends PApplet {
    */
   public void draw_section1(){
     int intX = 0;
-    int intY = 300;
+    int intY = 0;
 
     for(int intRow = 0; intRow < 30; intRow++){
       for(int intColumn = 0; intColumn < 30; intColumn++){
         intX = 3 + 10 * intRow;  
-        intY = 3 + 10 * intColumn; 
+        intY = 300 + 3 + 10 * intColumn; 
 
         fill(255);
         noStroke();
@@ -209,7 +212,7 @@ public class Sketch extends PApplet {
     for(int intRow = 0; intRow < 30; intRow++){
       for(int intColumn = 29; intColumn >= intRow; intColumn--){
         intX = 600 + 3 + (10 * intRow);
-        intY = 300 - 6 - (10 * intColumn);
+        intY = 300 - 7 - (10 * intColumn);
 
         noStroke();
 
