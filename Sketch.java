@@ -176,6 +176,7 @@ public class Sketch extends PApplet {
 
    /**
     * Draws a right angle triangle with a base of 29 squares and a height of 29 squares
+    * pointing left and up
     */
   public void draw_section5(){
     int intX = 0;
@@ -196,6 +197,7 @@ public class Sketch extends PApplet {
   }
   /**
    * Draws a right angle triangle with a base of 30 squares and a height of 30 squares
+   * pointing right and up
    */
   public void draw_section6(){
     int intX = 0;
@@ -216,7 +218,7 @@ public class Sketch extends PApplet {
   }
   /**
    * Draws a right angle triangle with a base of 30 squares and a height of 30 squares
-   * reflected along the x-axis
+   * reflected along the x-axis pointing down and right
    */
   public void draw_section7(){
     int intX = 0;
@@ -237,7 +239,7 @@ public class Sketch extends PApplet {
   }
   /**
    * Draws a right angle triangle with a base of 30 squares and a height of 30 squares
-   * reflected along the x-axis
+   * reflected along the x-axis pointing down and left
    */
   public void draw_section8(){
     int intX = 0;
