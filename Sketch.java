@@ -71,7 +71,8 @@ public class Sketch extends PApplet {
   }
   
   /**
-   * draws the bottom left section a
+   * draws the bottom left section 
+   * draws 30 by 30 grid of squares
    */
   public void draw_section1(){
     int intX = 0;
