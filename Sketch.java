@@ -146,6 +146,7 @@ public class Sketch extends PApplet {
 
   /**
    * Use the modulus operator and just one 'if' statement to select the color.
+   * draws a 30 by 30 grid of square but odd rows and even columns are coloured black
    */
   public void draw_section4(){
     int intX = 0;
