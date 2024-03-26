@@ -93,6 +93,7 @@ public class Sketch extends PApplet {
   /**
    * Use the modulus operator and an if statement to select the color
    * Don't loop from 30 to 60 to shift everything over, just add 300 to x.
+   * draws 30 by 30 grid of squares but even number columns are coloured black
    */
   public void draw_section2(){
     int intX = 0;
