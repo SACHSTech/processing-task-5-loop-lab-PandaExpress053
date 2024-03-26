@@ -174,7 +174,7 @@ public class Sketch extends PApplet {
    * Do NOT use 'if' statements to complete 5-8. Manipulate the loops instead
    */
 
-   /*
+   /**
     * Draws a right angle triangle with a base of 29 squares and a height of 29 squares
     */
   public void draw_section5(){
@@ -194,9 +194,9 @@ public class Sketch extends PApplet {
       }
     }
   }
-  /*
-    * Draws a right angle triangle with a base of 30 squares and a height of 30 squares
-    */
+  /**
+   * Draws a right angle triangle with a base of 30 squares and a height of 30 squares
+   */
   public void draw_section6(){
     int intX = 0;
     int intY = 0;
@@ -214,7 +214,10 @@ public class Sketch extends PApplet {
       }
     }
   }
-
+  /**
+   * Draws a right angle triangle with a base of 30 squares and a height of 30 squares
+   * reflected along the x-axis
+   */
   public void draw_section7(){
     int intX = 0;
     int intY = 0;
@@ -232,7 +235,10 @@ public class Sketch extends PApplet {
       }
     }
   }
-  
+  /**
+   * Draws a right angle triangle with a base of 30 squares and a height of 30 squares
+   * reflected along the x-axis
+   */
   public void draw_section8(){
     int intX = 0;
     int intY = 0;
