@@ -170,9 +170,13 @@ public class Sketch extends PApplet {
     }
   }
 
-  // /**
-  //  * Do NOT use 'if' statements to complete 5-8. Manipulate the loops instead
-  //  */
+  /**
+   * Do NOT use 'if' statements to complete 5-8. Manipulate the loops instead
+   */
+
+   /*
+    * Draws a right angle triangle with a base of 29 squares and a height of 29 squares
+    */
   public void draw_section5(){
     int intX = 0;
     int intY = 0;
