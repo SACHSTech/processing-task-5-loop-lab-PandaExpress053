@@ -194,7 +194,9 @@ public class Sketch extends PApplet {
       }
     }
   }
-
+  /*
+    * Draws a right angle triangle with a base of 30 squares and a height of 30 squares
+    */
   public void draw_section6(){
     int intX = 0;
     int intY = 0;
