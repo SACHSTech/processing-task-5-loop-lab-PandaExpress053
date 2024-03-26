@@ -71,7 +71,7 @@ public class Sketch extends PApplet {
   }
   
   /**
-   * draws the bottom left section
+   * draws the bottom left section a
    */
   public void draw_section1(){
     int intX = 0;
@@ -79,7 +79,7 @@ public class Sketch extends PApplet {
 
     for(int intRow = 0; intRow < 30; intRow++){
       for(int intColumn = 0; intColumn < 30; intColumn++){
-        intX = 3 + 10 * intRow;  
+        intX = 3 + 10 * intRow;
         intY = 300 + 3 + 10 * intColumn; 
 
         fill(255);
@@ -99,7 +99,7 @@ public class Sketch extends PApplet {
 
     for(int intRow = 0; intRow < 30; intRow++){
       for(int intColumn = 0; intColumn < 30; intColumn++){
-        intX = 300 + 3 + 10 * intRow;  
+        intX = 300 + 3 + 10 * intRow;
         intY = 300 + 3 + 10 * intColumn; 
 
         noStroke();
@@ -166,9 +166,9 @@ public class Sketch extends PApplet {
     }
   }
 
-  /**
-   * Do NOT use 'if' statements to complete 5-8. Manipulate the loops instead
-   */
+  // /**
+  //  * Do NOT use 'if' statements to complete 5-8. Manipulate the loops instead
+  //  */
   public void draw_section5(){
     int intX = 0;
     int intY = 0;
@@ -240,10 +240,4 @@ public class Sketch extends PApplet {
       }
     }
   }
-
-
-
-
-
-
 }
